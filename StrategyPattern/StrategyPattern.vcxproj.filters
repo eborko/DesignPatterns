@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DuckBehaviours">
+      <UniqueIdentifier>{2f117fbb-cbd7-4285-9511-423d0e042a9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DuckBehaviours">
+      <UniqueIdentifier>{dbe340bc-7642-44cd-9ccd-2c1d35972a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DuckBehaviours\QuackBehaviours">
+      <UniqueIdentifier>{ef07de02-de5b-40f8-95e4-57f6ebdcf6b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DuckBehaviours\FlyBehaviours">
+      <UniqueIdentifier>{b99c20b8-a47d-4061-a04f-a64367554d4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DuckBehaviours\FlyBehaviours">
+      <UniqueIdentifier>{4f3f3fa1-09cb-44ea-917e-1f74bbb8f699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DuckBehaviours\QuackBehaviours">
+      <UniqueIdentifier>{b16064f5-bc1f-4ff7-a6bc-360caf75ce41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Duck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyBehaviour.h">
+      <Filter>Header Files\DuckBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehaviour.h">
+      <Filter>Header Files\DuckBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithRocket.h">
+      <Filter>Header Files\DuckBehaviours\FlyBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>Header Files\DuckBehaviours\FlyBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Muted.h">
+      <Filter>Header Files\DuckBehaviours\QuackBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Squick.h">
+      <Filter>Header Files\DuckBehaviours\QuackBehaviours</Filter>
+    </ClInclude>
+    <ClInclude Include="Quack.h">
+      <Filter>Header Files\DuckBehaviours\QuackBehaviours</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Duck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithRocket.cpp">
+      <Filter>Source Files\DuckBehaviours\FlyBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithWings.cpp">
+      <Filter>Source Files\DuckBehaviours\FlyBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Quack.cpp">
+      <Filter>Source Files\DuckBehaviours\QuackBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Squick.cpp">
+      <Filter>Source Files\DuckBehaviours\QuackBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Muted.cpp">
+      <Filter>Source Files\DuckBehaviours\QuackBehaviours</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
